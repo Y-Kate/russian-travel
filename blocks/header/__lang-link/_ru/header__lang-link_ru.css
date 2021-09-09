@@ -1,9 +1,0 @@
-.header__lang-link_ru {
-  min-width: 29px;
-  margin-right: 18px;
-}
-
-.header__lang-link_ru:hover {
-  text-decoration-line: underline;
-  cursor: pointer;
-}
