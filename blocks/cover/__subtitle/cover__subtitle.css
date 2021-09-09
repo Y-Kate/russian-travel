@@ -9,3 +9,11 @@
   z-index: 1;
   color: #fff;
  }
+
+
+ @media (max-width: 600px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

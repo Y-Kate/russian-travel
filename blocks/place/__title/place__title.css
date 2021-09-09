@@ -4,3 +4,19 @@
   margin: 0;
   font-weight: 900;
 }
+
+@media (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
