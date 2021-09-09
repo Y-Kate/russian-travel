@@ -2,7 +2,7 @@
   max-width: 695px;
   align-self: flex-start;
   padding-top: 92px;
-  margin-left: calc((100% - 984px) / 2)
+  margin-left: calc((100% - 984px) / 2);
 }
 
 @media (max-width: 1080px) {
