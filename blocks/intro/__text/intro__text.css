@@ -3,3 +3,10 @@
   line-height: 163%;
   margin: 0 0 33px 0;
 }
+
+@media (max-width: 400px) {
+  .intro__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
