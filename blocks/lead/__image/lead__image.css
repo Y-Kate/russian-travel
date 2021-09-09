@@ -1,6 +1,6 @@
 .lead__image {
   width: 984px;
-  height: 615px;
+  /* height: 615px; */
   padding-top: 64px;
   padding-bottom: 8px;
 }
@@ -8,5 +8,13 @@
 @media (max-width: 1024px) {
   .lead__image {
     width: 928px;
+    padding-top: 56px;
   }
 }
+
+@media (max-width: 950px) {
+  .lead__image {
+    width: 50vw;
+  }
+}
+
