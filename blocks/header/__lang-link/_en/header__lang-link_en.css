@@ -1,0 +1,8 @@
+.header__lang-link_en {
+  min-width: 29px;
+}
+
+.header__lang-link_en:hover {
+  text-decoration-line: underline;
+  cursor: pointer;
+}
