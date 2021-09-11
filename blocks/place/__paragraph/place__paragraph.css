@@ -3,12 +3,12 @@
   line-height: 163%;
   margin: 0;
   font-weight: 400;
- }
-
-.place__paragraph:first-child {
   padding-bottom: 26px;
 }
 
+.place__paragraph:last-child {
+  padding-bottom: 0;
+}
 
 @media (max-width: 768px) {
   .place__paragraph {
@@ -16,4 +16,9 @@
   }
 }
 
-
+@media (max-width: 400px) {
+  .place__paragraph {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

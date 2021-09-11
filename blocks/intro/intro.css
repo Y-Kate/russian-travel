@@ -1,15 +1,16 @@
 .intro {
-  max-width: 695px;
-  align-self: flex-start;
+  max-width: 690px;
   padding-top: 92px;
-  margin-left: calc((100% - 984px) / 2);
+  position: relative;
+  right: 147px;
 }
 
 @media (max-width: 1080px) {
   .intro {
+    position: static;
+    align-self: flex-start;
     margin-left: 48px;
     margin-right: 48px;
-    max-width: 690px;
     padding-top: 104px;
   }
 }
@@ -18,7 +19,6 @@
   .intro {
     margin-left: 24px;
     margin-right: 24px;
-    max-width: 720px;
     padding-top: 88px;
   }
 }
