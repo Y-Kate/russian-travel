@@ -5,6 +5,8 @@
 .header__lang-link:hover {
   text-decoration-line: underline;
   cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s linear;
 }
 
 .header__lang-link:last-child {

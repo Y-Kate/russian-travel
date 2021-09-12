@@ -4,3 +4,8 @@
   color: #fff;
   font-weight: 400;
 }
+
+.place__website-link:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s linear;
+}
