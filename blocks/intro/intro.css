@@ -1,32 +1,29 @@
 .intro {
   max-width: 690px;
   padding-top: 92px;
-  position: relative;
-  right: 147px;
+  align-self: flex-start;
+  margin-left: 148px;
 }
 
 @media (max-width: 1080px) {
   .intro {
-    position: static;
-    align-self: flex-start;
     margin-left: 48px;
-    margin-right: 48px;
     padding-top: 104px;
   }
 }
 
 @media (max-width: 768px) {
   .intro {
-    margin-left: 24px;
-    margin-right: 24px;
-    padding-top: 88px;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 88px 24px 0;
   }
 }
 
 @media (max-width: 400px) {
   .intro {
-    margin-left: 16px;
-    margin-right: 16px;
-    padding-top: 64px;
+    margin: 0 auto;
+    max-width: 288px;
+    padding: 64px 16px 0;
   }
 }
